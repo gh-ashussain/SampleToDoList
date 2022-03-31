@@ -1,7 +1,3 @@
 # Get the base image
 
-FROM ubuntu:16.04
-
-# Install all packages
-
-RUN apt-get update
+FROM maven:3.8.1-openjdk-11-slim
